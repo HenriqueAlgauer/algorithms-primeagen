@@ -8,7 +8,7 @@ export default function twoCrystalBalls(breaks: boolean[]): number {
         }
     }
 
-    i -= jmpAmount;
+    i -= jmpAmount
 
     for (let j = 0; j < jmpAmount && i < breaks.length; ++j, ++i) {
         if (breaks[i]) {
